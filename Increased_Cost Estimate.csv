@@ -1,0 +1,17 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,78.93,947.16,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),Master DB,Amazon Aurora MySQL-Compatible,0,2178.23,26138.76,USD,"Change records per statement (0.38), Nodes (2), Instance Type (db.t2.medium), Instance Family (General purpose), Pricing Model (OnDemand), Storage amount (20 TB)"
+My Estimate,US East (N. Virginia),Web Server 1,Amazon EC2,0,95.71,1148.52,USD,"Operating system (Linux), Quantity (1), Pricing strategy (EC2 Instance Savings Plans 1 Year No UpFront), Storage amount (30 GB), Instance type (r6g.xlarge)"
+My Estimate,US East (N. Virginia),Web Server 2,Amazon EC2,0,95.71,1148.52,USD,"Operating system (Linux), Quantity (1), Pricing strategy (EC2 Instance Savings Plans 1 Year No UpFront), Storage amount (30 GB), Instance type (r6g.xlarge)"
+My Estimate,US East (N. Virginia),Application Server 1,Amazon EC2,0,64.54,774.48,USD,"Operating system (Linux), Quantity (1), Pricing strategy (EC2 Instance Savings Plans 1 Year No UpFront), Storage amount (30 GB), Instance type (t4g.xlarge)"
+My Estimate,US East (N. Virginia),Application Server 2,Amazon EC2,0,64.54,774.48,USD,"Operating system (Linux), Quantity (1), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (t4g.xlarge)"
+My Estimate,US East (N. Virginia),DB Server 1,Amazon Aurora MySQL-Compatible,0,572.91,6874.92,USD,"Change records per statement (0.38), Nodes (1), Instance Type (db.t2.medium), Instance Family (General purpose), Pricing Model (OnDemand), Storage amount (5 TB)"
+My Estimate,US East (N. Virginia),DB Server 2,Amazon Aurora MySQL-Compatible,0,572.91,6874.92,USD,"Change records per statement (0.38), Nodes (1), Instance Type (db.t2.medium), Instance Family (General purpose), Pricing Model (OnDemand), Storage amount (5 TB)"
+My Estimate,US East (N. Virginia),S3,S3 Standard,0,13190.2,158282.4,USD,S3 Standard storage (500 TB per month)
+My Estimate,US East (N. Virginia),S3,S3 Glacier,0,2058,24696,USD,S3 Glacier storage (500 TB per month)
+My Estimate,US East (N. Virginia),S3,Data Transfer,0,0,0,USD,
+Notes,,,,,,,,
+I added replication for S3 ( Glacier ) and increased MySQL storage to 5 TB,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,

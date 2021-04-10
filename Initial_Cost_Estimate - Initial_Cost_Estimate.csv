@@ -7,10 +7,13 @@ My Estimate,US East (N. Virginia),Application Server 1,Amazon EC2,0,64.54,774.48
 My Estimate,US East (N. Virginia),Application Server 2,Amazon EC2,0,64.54,774.48,USD,"Operating system (Linux), Quantity (1), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (t4g.xlarge)"
 My Estimate,US East (N. Virginia),DB Server 1,Amazon Aurora MySQL-Compatible,0,572.91,6874.92,USD,"Change records per statement (0.38), Nodes (1), Instance Type (db.t2.medium), Instance Family (General purpose), Pricing Model (OnDemand), Storage amount (5 TB)"
 My Estimate,US East (N. Virginia),DB Server 2,Amazon Aurora MySQL-Compatible,0,572.91,6874.92,USD,"Change records per statement (0.38), Nodes (1), Instance Type (db.t2.medium), Instance Family (General purpose), Pricing Model (OnDemand), Storage amount (5 TB)"
-My Estimate,US East (N. Virginia),S3,S3 Standard,0,4179,50148,USD,S3 Standard storage (100 TB per month)
+My Estimate,US East (N. Virginia),S3,S3 Standard,0,6431.8,77181.6,USD,S3 Standard storage (200 TB per month)
 My Estimate,US East (N. Virginia),S3,Data Transfer,0,0,0,USD,
+My Estimate,US East (N. Virginia),Network Address Translation (NAT) Gateway,Amazon Virtual Private Cloud (VPC),0,"1,051.20",0,USD,Number of NAT Gateways (2)
+,,,,,9665.23,,,
 ,,,,,,,,
-Notes,,,,,,,,
-"In order to reduce the cost to meet $6500 budget, I reduced allowed storage per user for S3",,,,,,,,
 Acknowledgement,,,,,,,,
 "* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+*** Elastic IPs do not incurr charges ***,,,,,,,,
+https://aws.amazon.com/premiumsupport/knowledge-center/elastic-ip-charges/,,,,,,,,
